@@ -51,9 +51,11 @@ const App: React.FC = () => {
     setEditingMemo(null);
   };
 
+
+
   return (
     <div>
-      <h1>&#9786;メモ帳アプリ&#9787;</h1>
+      <h1>&#9786; メモ帳アプリ &#9787;</h1>
       <MemoForm
         onAddMemo={addMemo}
         editingMemo={editingMemo}
