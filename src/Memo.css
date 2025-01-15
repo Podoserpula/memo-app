@@ -1,28 +1,35 @@
-@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap");
 
 body {
+    font-family: "Cherry Bomb One", suns-serif;
     background-color: turquoise;
     text-align: center;
-
 }
+
 
 h1 {
     color: royalblue;
-    text-shadow: 2px 3px rgb(165, 32, 125);
+    text-shadow: 2px 3px rgb(199, 158, 187);
     background-color: #fff;
 
 }
 
 input {
+    font-family: "Cherry Bomb One", suns-serif;
     width: 80%;
     height: 50px;
     border-radius: 10px;
 }
 
 textarea {
+    font-family: "Cherry Bomb One", suns-serif;
     width: 90%;
     height: 100px;
     border-radius: 10px;
+}
+
+.btn {
+    font-family: "Cherry Bomb One", suns-serif;
 }
 
 h3 {
@@ -34,8 +41,9 @@ h3 {
 }
 
 p {
-    font-family: serif;
-    font-weight: bold;
+    font-family: "Cherry Bomb One", serif;
+    font-weight: 400;
+    font-style: normal;
     margin-left: 20px;
     margin-right: 20px;
     color: rgb(35, 73, 186);

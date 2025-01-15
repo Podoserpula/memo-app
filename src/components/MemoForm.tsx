@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 type Memo = {
     id: number;
     title: string;
@@ -61,7 +62,7 @@ const MemoForm: React.FC<MemoFormProps> = ({
                 value={content}
                 onChange={(e) => setContent(e.target.value)}
             />
-            <button type="submit">
+            <button type="submit" className="btn">
                 {editingMemo ? '更新' : '追加'}
             </button>
         </form>
